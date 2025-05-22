@@ -17,4 +17,4 @@ parser = argparse.ArgumentParser(description = 'Inverse complement calculator.')
 parser.add_argument('sequence', help = 'Your sequence')
 args = parser.parse_args()
 
-print(reverse_compl(args.sequence))
+print(reverse_compl(args.sequence.upper()))
