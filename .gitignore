@@ -1,2 +1,16 @@
-/data/
+###############
+## Sensitive ##
+###############
+data/
+sequences.txt
+sequences_reversed.txt
+
+#################
+## Environment ##
+#################
 /venv/
+
+###########
+## Cache ##
+###########
+__pycache__
